@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.mainOpen {
+  display: flex;
+  z-index: 9999;
+  top: 0;
+  transition: 0.5s;
+  height: 100vh;
+  position: fixed;
+  opacity: 1;
+  visibility: visible;
+  width: 100%;
+}
+.leftSocial {
+  border-right: 0.2px solid #ffffff30;
+  width: 20%;
+  background-color: black;
+  color: white;
+}
+.listnav {
+  width: 55%;
+}
+.rightAddress {
+  margin-left: -1px;
+  width: 25%;
+  background-color: #121212;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.moonLogo {
+  padding: 50px 0px;
+  text-align: center;
+  border-bottom: 0.2px solid #ffffff30;
+}
+.moonLogoImg {
+  max-width: 140px;
+}
+.followMain {
+  width: fit-content;
+  margin: auto;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.followMain > h4 {
+  text-align: center;
+  font-family: "Kanit", sans-serif;
+  font-size: 28px;
+}
+.followList {
+  /* width: fit-content;
+    margin: auto; */
+}
+.ulFollow {
+  list-style: none;
+  padding: 0;
+}
+.liFollow {
+  margin: 8px 0px;
+}
+.anchFollow {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "Kanit", sans-serif;
+}
+.faqRight {
+  text-align: center;
+  padding: 70px;
+  border-top: 0.2px solid #ffffff30;
+}
+.faqLeftStyle {
+  text-align: center;
+  font-family: "Kanit", sans-serif;
+  font-size: 28px;
+  color: white;
+  text-decoration: none;
+}
+.listNav {
+  width: 55%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.listNavMain {
+  border-top: 0.2px solid #ffffff30;
+}
+.ulListNav {
+  list-style: none;
+  padding: 0px;
+}
+.liListNav {
+  padding: 18px 45px;
+  border-bottom: 0.2px solid #ffffff30;
+}
+.anchListNav {
+  color: white;
+  font-size: 45px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Kanit", sans-serif;
+}
+.crossDiv {
+  display: flex;
+  justify-content: end;
+  padding: 30px;
+}
+.circleCross {
+  background-color: #232323;
+  border-radius: 30px;
+  padding: 20px 20px 16px 20px;
+  width: fit-content;
+  border: none;
+  cursor: pointer;
+}
+.circleCross:hover {
+  background-color: rgba(255, 255, 255, 0.196);
+}
+.addressMain {
+  padding: 40px;
+  /* margin-top: 85px; */
+}
+.getMainStyle {
+  color: white;
+  font-size: 24px;
+  font-family: "Kanit", sans-serif;
+}
+.ulNumberMail {
+  list-style: none;
+  padding: 0px;
+}
+.liNumber {
+  margin: 10px 0px;
+}
+.anchNumber {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  font-family: "Kanit", sans-serif;
+}
+.liMail {
+  margin: 10px 0px;
+}
+.anchMail {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  font-family: "Kanit", sans-serif;
+}
+.stateStyle {
+  color: white;
+  font-size: 18px;
+  font-family: "Kanit", sans-serif;
+}
+a:hover {
+  color: rgba(255, 255, 255, 0.486);
+}
+.moonImg {
+  padding: 30px;
+  display: flex;
+  justify-content: end;
+}
+.innerMoonImgDiv {
+  width: fit-content;
+  text-align: right;
+}

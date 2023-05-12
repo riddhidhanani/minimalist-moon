@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+.mainFeedBack{
+    background-color: black;
+   
+    height: 100vh;
+
+}
+.feedbackContainer{
+    max-width: 100%;
+    margin: auto;
+    height: 100%;
+}
+.feedbackSpacing{
+    /* padding:150px 60px; */padding: 70px 40px;
+}
+.mainSliderFeedback{
+    max-width: 58%;
+    margin: 13vh 0;
+}
+.comaSVG{
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+.feedbackDetailStyle{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.5;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    margin: 0 auto;
+    font-family: 'Kanit', sans-serif;
+    padding: 50px 0px 0px 0px;
+}
+.clientStyle{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1.3;
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    padding-top: 50px;
+    text-align: center;
+    position: relative;
+    margin: 0;
+    padding-bottom: 10px;
+
+}
+.slick-active .clientStyle{
+    animation: fromBottom 1s linear;
+
+}
+@keyframes fromBottom{
+    from {
+        opacity: 0;
+        top: 16px;
+    }
+    to { opacity: 1;
+    top: 0px; }
+}
+.clientStyleAnim{
+    animation: zAnimWhite 1s ease-in-out; 
+    
+  }
+  @keyframes zAnimWhite{
+    0%{
+      color: transparent;
+      transform-origin: 50% 0%;
+      transform: translate3d(0px, 18px, -15px) rotateX(-65deg) skew(10deg);
+      opacity: 0;
+    }
+    100%{
+      color: white;
+      transform-origin: 241px 16px;
+      transform: translate3d(0px, 0px, 0px);
+      opacity: 1;
+    }
+  }
+.subClientStyle{
+    font-weight: 300;
+    font-size: 14px;
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    color: #ffffff85;
+    margin: 0px 0px 30px 0px;
+}
+  .arrowStyle{
+    text-align: center;
+    padding: 30px 0px;
+  }
+  .control_prev{
+   
+    border: 1px solid;
+    border-radius: 100%;
+    background-color: transparent;
+  }
+  .control_next{
+   
+    border: 1px solid;
+    border-radius: 100%;
+    background-color: transparent;  }
+
+    .slick-prev::before{ display: none !important;}
+    .slick-next::before{display: none !important;}
+
+    #slider div div.slick-next {
+        bottom: -30px;
+        top: unset;
+        right: 45%;
+    }
+    
+    
+    #slider div div.slick-prev {
+        bottom: -30px;
+        top: unset;
+        left: 41%;
+        
+    }
+    
+    #slider div div.slick-prev:hover{
+        stroke: white;
+        fill: white;
+    }
+    #slider div div.slick-next:hover{
+        stroke: white;
+        fill: white;
+    }
+
+.innerfeedback{
+    display: flex;
+
+    width: 100%;
+}
+.movingAnimationMainLeft{
+    width: 40%;
+}
+.movingAnimationMainRight{
+    width: 40%;
+}
+.mainSliderFeedback{
+    width: 40%;
+}
+.middleLeft{
+    margin: 190px 0px 90px 0px;
+}
+.upperLeft{
+    float: right;
+}
+.bottomLeft{
+    width: 100%;
+    float: right;
+}
+.bottomLeftimg{
+    margin: 0px 0px 0px 160px;
+    max-width: 210px;
+}
+.middleRight{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin: 50px 0px 90px 50px;
+  
+}
+.upperRight{
+    width: 100%;
+    float: left;
+    margin-top: -88px;
+}
+.bottomRight{
+    width: 100%;
+    float: left;
+}
+.bottomLeft{
+    width: 100%;
+}
+.middleRightImg{
+    margin: 50px 20px 20px 75px;
+    float: right;
+}

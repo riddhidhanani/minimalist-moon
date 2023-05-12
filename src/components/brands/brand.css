@@ -1,0 +1,71 @@
+.brandContainer {
+  max-width: 90%;
+  margin: auto;
+}
+.brandSpacing {
+  padding: 90px 25px;
+}
+.innerBrand {
+  width: 90%;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  margin: 40px auto;
+  justify-content: space-between;
+}
+.innerBrandAnim div{
+  animation: brandtype 2s ease-in-out forwards;
+  position: relative;
+  display: inline-block;
+}
+.innerBrandAnim div:nth-of-type(1) {
+  animation-delay: 0.5s;
+}
+.innerBrandAnim div:nth-of-type(2) {
+  animation-delay: 0.6s;
+}
+.innerBrandAnim div:nth-of-type(3) {
+  animation-delay: 0.7s;
+}
+.innerBrandAnim div:nth-of-type(4) {
+  animation-delay: 0.8s;
+}
+@keyframes brandtype {
+  0% {
+    opacity: 0;
+    color: transparent;
+    display: none;
+  }
+  100% {
+    opacity: 1;
+    color: white;
+    display: block;
+  }
+}
+.happyMain {
+  text-align: center;
+}
+.happyStyle {
+  font-family: "Kanit", sans-serif;
+  margin: 30px 0px;
+  font-size: 18px;
+}
+.happyStyleAnim{
+  animation: zAnim 1s ease-in-out; 
+  font-family: "Kanit", sans-serif;
+  margin: 30px 0px;
+  font-size: 18px;
+}
+@keyframes zAnim{
+  0%{
+    color: transparent;
+    transform-origin: 50% 0%;
+    transform: translate3d(0px, 18px, -15px) rotateX(-65deg);
+    opacity: 0.5;
+  }
+  100%{
+    color: black;
+    transform-origin: 558px 12.6px;
+    transform: translate3d(0px, 0px, 0px);
+    opacity: 1;
+  }
+}

@@ -1,0 +1,7 @@
+<svg id="Group_30614" data-name="Group 30614" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="Ellipse_6" data-name="Ellipse 6" fill="none" stroke="#fefefe" stroke-width="1">
+    <circle cx="25" cy="25" r="25" stroke="none"/>
+    <circle cx="25" cy="25" r="24.5" fill="none"/>
+  </g>
+  <path id="arrow-small-left" d="M7.438,13.188H21.814l-4.73-4.73a1.438,1.438,0,0,1,2.027-2.041L25.278,12.6a2.875,2.875,0,0,1,.848,2.027h0a2.875,2.875,0,0,1-.848,2.013L19.111,22.82a1.438,1.438,0,1,1-2.027-2.041l4.73-4.715H7.438a1.438,1.438,0,0,1,0-2.875Z" transform="translate(8.937 10.382)" fill="#fefefe"/>
+</svg>

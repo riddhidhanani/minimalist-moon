@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.mainWhoWe {
+  background: url(mainWhoWe.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.WhoWeContainer {
+  margin: auto;
+  max-width: 90%;
+}
+.spacingWhoWe {
+  padding: 60px 25px;
+}
+.whoWeDiv {
+  width: 100%;
+  margin: auto;
+  gap: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.whoWeImgAnim {
+  animation: pictAnim 1s ease-in-out;
+}
+@keyframes pictAnim {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    max-width: 440px;
+  }
+}
+.whoLeftDiv {
+  width: 50%;
+  text-align: center;
+  padding: 35px 0px;
+}
+.whoRightDiv {
+  width: 48%;
+  padding: 35px 0px;
+}
+.whoWeImg {
+  max-width: 440px;
+}
+
+.areStyle {
+  margin: 0;
+
+  font-family: "Kanit", sans-serif;
+  font-size: 16px;
+}
+.areStyleAnim {
+  animation: zAnimWhite 1s ease-in-out;
+  margin: 0;
+  color: white;
+  font-family: "Kanit", sans-serif;
+  font-size: 16px;
+}
+@keyframes zAnimWhite {
+  0% {
+    color: transparent;
+    transform-origin: 50% 0%;
+    transform: translate3d(0px, 18px, -15px) rotateX(-65deg) skew(10deg);
+    opacity: 0;
+  }
+  100% {
+    color: white;
+    transform-origin: 241px 16px;
+    transform: translate3d(0px, 0px, 0px);
+    opacity: 1;
+  }
+}
+.leadingDisc {
+  width: 85%;
+}
+.leadingDiscDiv {
+  margin-left: 145px;
+  display: flex;
+  margin-top: 60px;
+  flex-direction: column;
+  height: 400px;
+  justify-content: space-around;
+}
+
+.leadingStyle {
+  line-height: 1;
+  margin: 20px 0px;
+  font-family: "Kanit", sans-serif;
+  font-size: 47px;
+  color: white;
+}
+.leadingStyleAnim {
+  animation: zAnimWhite 1s ease-in-out;
+}
+.leading {
+  width: 90%;
+}
+.leadingDiscStyle {
+  color: #ffffff70;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  margin: 0;
+}
+.leadingDiscStyleAnim {
+  animation: zAnimGray 1s ease-in-out;
+}
+@keyframes zAnimGray {
+  0% {
+    color: transparent;
+    transform-origin: 50% 0%;
+    transform: translate3d(0px, 18px, -15px) rotateX(-65deg);
+    opacity: 0;
+  }
+  100% {
+    color: #ffffff70;
+    transform-origin: 241px 16px;
+    transform: translate3d(0px, 0px, 0px);
+    opacity: 1;
+  }
+}

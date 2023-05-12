@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.subFooterContainer {
+  margin: 290px 0px 0px 0px;
+}
+.subFooterTop {
+  background-image: url(office.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin-top: -250px;
+  width: 80%;
+  height: 100vh;
+  float: right;
+}
+.subFooterBottom {
+  background-color: black;
+  height: 600px;
+  margin: 200px 0px 0px 61px;
+  max-width: 87%;
+  position: relative;
+  z-index: 9;
+}
+.innersubFooterBottom {
+  display: flex;
+  width: 100%;
+  position: absolute;
+}
+.leftSubFooterTop {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 45% 20% 35%;
+}
+.leftSubFooter {
+  padding-left: 100px;
+  width: 68%;
+}
+.allSocial {
+  padding: 100px 0px;
+}
+.innerInformation {
+  padding: 95px 0px;
+}
+.allSocialDiv {
+}
+.allSocialDiv img {
+  max-width: 100px;
+}
+.rightSubfooter {
+  width: 35%;
+}
+.avoid {
+  font-weight: 400;
+  width: 86%;
+  font-size: 16px;
+  line-height: 1.5;
+  color: gray;
+  margin-bottom: 30px;
+  font-family: "Kanit", sans-serif;
+}
+.socialFooterUl {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+}
+.socialFooterLi {
+  font-size: 16px;
+
+  color: #999999;
+  font-weight: 400;
+}
+.socialFooterAnch {
+  color: #999999;
+  cursor: pointer;
+  transition: 0.5s;
+  font-size: 16px;
+  font-weight: 400;
+}
+.informationHead {
+  font-weight: 600;
+  font-family: "Kanit", sans-serif;
+  font-size: 20px;
+  line-height: 1.3;
+  color: white;
+  margin: 0;
+  padding-bottom: 26px;
+}
+.informationUl {
+  padding: 0;
+}
+.informationLi {
+  font-family: "Kanit", sans-serif;
+  cursor: pointer;
+  margin-bottom: 12px;
+  padding-bottom: 0px;
+  font-size: 16px;
+  color: #999999;
+  font-weight: 400;
+}
+.contactFooterHead {
+  font-weight: 600;
+  font-family: "Kanit", sans-serif;
+  font-size: 20px;
+  line-height: 1.3;
+  color: white;
+  margin: 0;
+  padding-bottom: 26px;
+}
+.contactDiv {
+  padding: 95px 0px;
+}
+.contactFooterUl {
+  padding: 0;
+}
+.contactFooterLi {
+  font-family: "Kanit", sans-serif;
+  cursor: pointer;
+  margin-bottom: 12px;
+  padding-bottom: 0px;
+  font-size: 16px;
+  color: #999999;
+  font-weight: 400;
+}
+.contactFooterAnch {
+  color: #999999;
+}
+.contactFooterAnchMail {
+  text-decoration: none;
+  color: #999999;
+}
+.allRights {
+  border-top: 1px solid #ffffff3b;
+  padding: 20px 0px;
+}
+.rightSubFooter {
+  width: 32%;
+  padding: 124px 0px;
+  background-color: #151515;
+}
+.inMindHead {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.3;
+  color: white;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 25px;
+}
+.MoonDivFooter {
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  width: 10rem;
+  height: 10rem;
+  background-color: transparent;
+  margin: 30px auto;
+  border-radius: 50%;
+  border: 0.5px solid #ffffff24;
+}
+.MoonDivFooter:not(:hover) {
+  box-shadow: inset 3px -3px 0 1px white;
+  transition: 1.5s;
+}
+.MoonDivFooter:hover {
+  transition: 1.5s;
+  box-shadow: inset 10rem -10rem 0 3px white;
+}
+.MoonDivFooter:hover .knowStyle {
+  color: black;
+  transition: 1.5s;
+}
+.MoonDivFooter:not(:hover) .knowStyle {
+  color: white;
+  transition: 1.5s;
+}
+.mainknowStyleFooter {
+  margin-top: 66px;
+}

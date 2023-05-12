@@ -1,0 +1,259 @@
+[
+    {
+        "_id": "6426a1d3b318505bdf25f885",
+        "section1": {
+            "title1": "abc",
+            "title2": "def"
+        },
+        "section2": {
+            "_id": "6427b17f6c6d7dfa2efa7f20",
+            "title": "Our Customers",
+            "image": [
+                {
+                    "_id": "6426d2712cd0c973b9fbed00",
+                    "title": "dummy",
+                    "url": "Desktop1680265841368_test.jpg",
+                    "createdAt": "2023-03-31T12:30:41.376Z",
+                    "updatedAt": "2023-03-31T12:30:41.376Z",
+                    "__v": 0
+                },
+                {
+                    "_id": "6426d357a095154c252be599",
+                    "title": "dummy",
+                    "url": "C:/Users/windows/Desktop/images/1680266071681_mathias-reding-OswWE4tMMgY-unsplash.jpg",
+                    "createdAt": "2023-03-31T12:34:31.688Z",
+                    "updatedAt": "2023-03-31T12:34:31.688Z",
+                    "__v": 0
+                },
+                {
+                    "_id": "6426d39bf12747ee8d2b2fc7",
+                    "title": "dummy",
+                    "url": "C:/Users/windows/Desktop/images/1680266139649_test.jpg",
+                    "createdAt": "2023-03-31T12:35:39.655Z",
+                    "updatedAt": "2023-03-31T12:35:39.655Z",
+                    "__v": 0
+                }
+            ],
+            "createdAt": "2023-04-01T04:22:23.366Z",
+            "updatedAt": "2023-04-01T04:22:23.366Z",
+            "__v": 0
+        },
+        "section3": {
+            "_id": "6427c83c080af59f5abf1cab",
+            "title1": "abc",
+            "title2": "def",
+            "image": {
+                "_id": "6426a42ce401880eb66833f8",
+                "title": "",
+                "url": "C:/work/minimalistMoon_backend/src/middleware/upload/mathias-reding-OswWE4tMMgY-unsplash.jpg",
+                "createdAt": "2023-03-31T09:13:16.729Z",
+                "updatedAt": "2023-03-31T09:13:16.729Z",
+                "__v": 0
+            },
+            "description": "hello",
+            "createdAt": "2023-04-01T05:59:24.591Z",
+            "updatedAt": "2023-04-01T05:59:24.591Z",
+            "__v": 0
+        },
+        "section4": [
+            {
+                "_id": "6426d5ea01dcd6d56c87a1c5",
+                "mainTitle": "abc",
+                "subTitle": "xyz",
+                "image": {
+                    "_id": "6426d39bf12747ee8d2b2fc7",
+                    "title": "dummy",
+                    "url": "C:/Users/windows/Desktop/images/1680266139649_test.jpg",
+                    "createdAt": "2023-03-31T12:35:39.655Z",
+                    "updatedAt": "2023-03-31T12:35:39.655Z",
+                    "__v": 0
+                },
+                "description": "abcdefghijklmnop",
+                "bulletPoint": [
+                    "abc",
+                    "def",
+                    "ghi",
+                    "jkl"
+                ],
+                "createdAt": "2023-03-31T12:45:30.708Z",
+                "updatedAt": "2023-03-31T12:45:30.708Z",
+                "__v": 0
+            }
+        ],
+        "createdAt": "2023-03-31T09:03:15.398Z",
+        "updatedAt": "2023-04-03T06:24:00.044Z",
+        "__v": 0,
+        "section5": [
+            {
+                "image": {
+                    "_id": "6426a447e401880eb66833ff",
+                    "title": "",
+                    "url": "C:/work/minimalistMoon_backend/src/middleware/upload/test.jpg",
+                    "createdAt": "2023-03-31T09:13:43.253Z",
+                    "updatedAt": "2023-03-31T09:13:43.253Z",
+                    "__v": 0
+                },
+                "title": "ghi",
+                "_id": "642a710069e291de2e376c10"
+            },
+            {
+                "image": {
+                    "_id": "6426a447e401880eb66833fe",
+                    "title": "",
+                    "url": "C:/work/minimalistMoon_backend/src/middleware/upload/mathias-reding-OswWE4tMMgY-unsplash.jpg",
+                    "createdAt": "2023-03-31T09:13:43.253Z",
+                    "updatedAt": "2023-03-31T09:13:43.253Z",
+                    "__v": 0
+                },
+                "title": "jkl",
+                "_id": "642a710069e291de2e376c11"
+            }
+        ],
+        "section6": {
+            "_id": "642a70e069e291de2e376c05",
+            "mainCategory": "642a707aec5caac75ba36fbc",
+            "subCategory": "642a7088ec5caac75ba36fc1",
+            "image": {
+                "_id": "6426a447e401880eb66833fe",
+                "title": "",
+                "url": "C:/work/minimalistMoon_backend/src/middleware/upload/mathias-reding-OswWE4tMMgY-unsplash.jpg",
+                "createdAt": "2023-03-31T09:13:43.253Z",
+                "updatedAt": "2023-03-31T09:13:43.253Z",
+                "__v": 0
+            },
+            "createdAt": "2023-04-03T06:23:28.431Z",
+            "updatedAt": "2023-04-03T06:23:28.431Z",
+            "__v": 0
+        },
+        "section7": [
+            {
+                "_id": "6426be3af6fd58fb0069dade",
+                "name": "sk",
+                "feedback": "average",
+                "image": {
+                    "_id": "6426a43fe401880eb66833fb",
+                    "title": "",
+                    "url": "C:/work/minimalistMoon_backend/src/middleware/upload/test.jpg",
+                    "createdAt": "2023-03-31T09:13:35.396Z",
+                    "updatedAt": "2023-03-31T09:13:35.396Z",
+                    "__v": 0
+                },
+                "companyName": "par",
+                "createdAt": "2023-03-31T11:04:26.224Z",
+                "updatedAt": "2023-03-31T11:04:26.224Z",
+                "__v": 0
+            },
+            {
+                "_id": "6426beb4f6fd58fb0069daf6",
+                "name": "def",
+                "feedback": "good",
+                "image": {
+                    "_id": "6426a447e401880eb66833ff",
+                    "title": "",
+                    "url": "C:/work/minimalistMoon_backend/src/middleware/upload/test.jpg",
+                    "createdAt": "2023-03-31T09:13:43.253Z",
+                    "updatedAt": "2023-03-31T09:13:43.253Z",
+                    "__v": 0
+                },
+                "companyName": "google",
+                "createdAt": "2023-03-31T11:06:28.541Z",
+                "updatedAt": "2023-03-31T11:06:28.541Z",
+                "__v": 0
+            }
+        ],
+        "section8": {
+            "_id": "6427dae1ae6a275f97309268",
+            "section1": {
+                "title": "abc"
+            },
+            "section2": {
+                "info": {
+                    "title": "def",
+                    "description": "ghi",
+                    "socialMedialinks": [
+                        "jkl",
+                        "mno"
+                    ]
+                },
+                "statistics": [
+                    {
+                        "title": "pqr",
+                        "percentageCount": "50%",
+                        "description": "stu",
+                        "_id": "6427dae1ae6a275f9730926a"
+                    }
+                ]
+            },
+            "section3": {
+                "statistics": [
+                    {
+                        "title": "vwx",
+                        "percentageCount": "80%",
+                        "_id": "6427dae1ae6a275f9730926b"
+                    }
+                ],
+                "image": {
+                    "_id": "6426a42ce401880eb66833f8",
+                    "title": "",
+                    "url": "C:/work/minimalistMoon_backend/src/middleware/upload/mathias-reding-OswWE4tMMgY-unsplash.jpg",
+                    "createdAt": "2023-03-31T09:13:16.729Z",
+                    "updatedAt": "2023-03-31T09:13:16.729Z",
+                    "__v": 0
+                }
+            },
+            "section4": {
+                "question": "xyz?",
+                "title": "no"
+            },
+            "createdAt": "2023-04-01T07:18:57.146Z",
+            "updatedAt": "2023-04-01T07:18:57.146Z",
+            "__v": 0
+        },
+        "section9": [
+            {
+                "_id": "6427f0708d31c6dac86f0f58",
+                "question": "How are you ?",
+                "answer": "Good",
+                "createdAt": "2023-04-01T08:50:56.871Z",
+                "updatedAt": "2023-04-01T08:50:56.871Z",
+                "__v": 0
+            },
+            {
+                "_id": "6427f01944d66dd4ebe7568e",
+                "question": "How are you ?",
+                "answer": "Good",
+                "createdAt": "2023-04-01T08:49:29.669Z",
+                "updatedAt": "2023-04-01T08:49:29.669Z",
+                "__v": 0
+            }
+        ],
+        "section10": {
+            "title": "abcd",
+            "description": "wxyz",
+            "blog": [
+                {
+                    "date": "",
+                    "link": "",
+                    "_id": "6427c83c080af59f5abf1cab",
+                    "title1": "abc",
+                    "title2": "def",
+                    "image": {
+                        "_id": "6426a42ce401880eb66833f8",
+                        "title": "",
+                        "url": "C:/work/minimalistMoon_backend/src/middleware/upload/mathias-reding-OswWE4tMMgY-unsplash.jpg",
+                        "createdAt": "2023-03-31T09:13:16.729Z",
+                        "updatedAt": "2023-03-31T09:13:16.729Z",
+                        "__v": 0
+                    },
+                    "description": "hello",
+                    "createdAt": "2023-04-01T05:59:24.591Z",
+                    "updatedAt": "2023-04-01T05:59:24.591Z",
+                    "__v": 0
+                }
+            ]
+        },
+        "footer": {
+            "description": "abcdefghijklmnopqrstuvwxyz"
+        }
+    }
+]

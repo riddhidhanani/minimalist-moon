@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.portfolioContainer {
+  max-width: 94%;
+  margin: auto;
+}
+.portfolioSpacing {
+  padding: 50px 0px;
+}
+.portfolioHead {
+  width: 35%;
+}
+.portfolioHeadStyle {
+  font-size: 105px;
+  line-height: 1;
+  font-family: "Kanit", sans-serif;
+  margin: 0;
+  font-weight: 600;
+}
+.portfolioBottom {
+  display: flex;
+  margin: 80px 0px 20px 0px;
+  gap: 25px;
+}
+.portfolioLeft {
+  width: 22%;
+}
+.portfolioLeftInner {
+  display: flex;
+  width: 100%;
+  padding-top: 45px;
+}
+.activeLink {
+  width: 4%;
+  background-color: rgb(128 128 128 / 27%);
+  border-radius: 6px;
+}
+.singleButton {
+  display: block;
+  color: black;
+  width: 100%;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  background-color: white;
+  padding: 1px 10px 26px 15px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+.fourTypesMain {
+  display: flex;
+  padding: 0px 0px 0px 20px;
+}
+.fourTypeButton {
+  background-color: white;
+  border: none;
+  padding: 0px 35px 0 0px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  cursor: pointer;
+}
+.allImages {
+  overflow: hidden;
+  display: grid;
+  padding-top: 25px;
+  grid-template-columns: auto auto auto;
+}
+.typeImageStyle {
+  width: 100%;
+  max-width: 260px;
+  margin: 12px;
+}
+.typeImage {
+  animation: slide-in 0.5s ease-in-out forwards;
+  transition: 1000ms ease-in-out;
+  position: relative;
+}
+@keyframes slide-in {
+  0% {
+    transform: scale(0.2);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.moonMain {
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+}
+.singleButton:hover {
+  color: rgba(0, 0, 0, 0.593);
+}
+/* .singleButton.active::before{
+    content: "\2022";
+    font-size: 25px;
+    vertical-align: middle;
+    margin-left: -25px;
+    padding-right: 21px;
+    visibility: visible;
+    animation: fade 0.5s ease-in-out;
+}
+@keyframes fade{
+    0% {
+        transform: translateZ(600px);
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateZ(0);
+        opacity: 1;
+    }
+} */
+.fourTypeButton:hover {
+  color: rgba(0, 0, 0, 0.593);
+}
+.whiteMoonDivPortfolio {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  width: 10rem;
+  height: 10rem;
+  background-color: transparent;
+  box-shadow: inset 3px -3px 0 1px white;
+  border-radius: 50%;
+  border: 0.5px solid #0000007a;
+}
+.whiteMoonDivPortfolio:not(:hover) {
+  box-shadow: inset 3px -3px 0 1px black;
+  transition: 1.5s;
+}
+.whiteMoonDivPortfolio:not(:hover) .whiteknowStyle {
+  transition: 1.5s;
+}
+.whiteMoonDivPortfolio:hover .whiteknowStyle {
+  color: white;
+  transition: 1.5s;
+}
+.whiteMoonDivPortfolio:hover {
+  transition: 1.5s;
+  color: white;
+  box-shadow: inset 10rem -10rem 0 3px black;
+}

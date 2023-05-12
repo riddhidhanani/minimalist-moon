@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.mainFaq {
+  background-color: black;
+  /* height: 100vh; */
+}
+.faqContainer {
+  max-width: 90%;
+  margin: auto;
+}
+
+.faqSpacing {
+  padding: 40px 20px;
+}
+.faqHeadStyle {
+  font-size: 100px;
+  font-weight: 500;
+  font-family: "Kanit", sans-serif;
+  margin: 0;
+  color: white;
+}
+.fullFormstyle {
+  padding-left: 60px;
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: 400;
+  font-family: "Kanit", sans-serif;
+  color: #ffffff99;
+  margin: 0;
+}
+.wrapperFaq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: 50px 0px;
+}
+.accordion {
+  width: 100%;
+  border-top: 0.5px solid rgb(173 166 166 / 21%);
+}
+.item {
+  border-bottom: 0.5px solid rgb(173 166 166 / 21%);
+}
+.content {
+  width: 95%;
+}
+.showContent {
+  display: none;
+}
+.title > span {
+  color: white;
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-size: 26px;
+}
+.title {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.titleStyle {
+  margin: 20px 0px;
+  font-family: "Kanit", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+/* .title:first-child{
+  margin: 20px 0px;
+  font-family: "Kanit", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+} */
+.contentStyle {
+  padding-bottom: 30px;
+  padding-left: 0px;
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: 400;
+  color: #ffffff8f;
+  font-family: "Kanit", sans-serif;
+  width: 95%;
+  margin: 0;
+}

@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.mainFeatured {
+  background-color: black;
+}
+.featureContainer {
+  max-width: 95%;
+  margin: auto;
+}
+.featureSpacing {
+  padding: 100px;
+}
+.styleHead {
+  margin: 0;
+  color: white;
+  font-family: "Kanit", sans-serif;
+  font-size: 18px;
+  width: 11%;
+}
+.styleHeadAnim {
+  animation: zAnimWhite 1s ease-in-out;
+}
+@keyframes zAnimWhite {
+  0% {
+    color: transparent;
+    transform-origin: 50% 0%;
+    transform: translate3d(0px, 18px, -15px) rotateX(-65deg) skew(10deg);
+    opacity: 0;
+  }
+  100% {
+    color: white;
+    transform-origin: 241px 16px;
+    transform: translate3d(0px, 0px, 0px);
+    opacity: 1;
+  }
+}
+.outOfMain {
+  width: 100%;
+}
+/* .leftOut{
+    width: 50%;
+} */
+.leftOut {
+  display: flex;
+  margin: auto;
+  width: 100%;
+}
+.rightOut {
+  width: 50%;
+}
+.middleOut {
+  width: 40%;
+  padding: 175px 0px 0px 0px;
+}
+
+.changeNumber > p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 60px;
+  color: white;
+  margin: 0;
+}
+.slick-active .changeNumber {
+  animation: zAnimWhite 1s ease-in-out;
+}
+.slash > p {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 60px;
+  color: white;
+}
+.four > p {
+  margin: 0;
+  font-size: 60px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: white;
+}
+.numberMain {
+  display: flex;
+width: 20%;
+justify-content: center;
+  margin: 35px 0px;
+}
+.upperH3 {
+  font-family: "Kanit", sans-serif;
+  font-size: 90px;
+  color: white;
+  line-height: 1;
+  font-weight: 500;
+  position: relative;
+  margin: 0;
+}
+.lowerH3 {
+  line-height: 1;
+  margin: 0;
+  color: white;
+  font-weight: 500;
+  position: relative;
+  font-size: 90px;
+  padding-left: 170px;
+  font-family: "Kanit", sans-serif;
+}
+.slick-active .lowerH3 {
+  animation: fromBottom 1s linear;
+}
+@keyframes fromBottom {
+  from {
+    opacity: 0;
+    top: 40px;
+  }
+  to {
+    opacity: 1;
+    top: 0px;
+  }
+}
+.slick-active .upperH3 {
+  animation: fromBottom 1s linear;
+}
+@keyframes fromBottom {
+  from {
+    opacity: 0;
+    top: 40px;
+  }
+  to {
+    opacity: 1;
+    top: 0px;
+  }
+}
+.fourcategoryDiv {
+  margin: 70px 0px;
+  /* position: relative;
+    animation-duration: 3s;
+    animation-name: mymove;
+    animation-timing-function: ease; */
+}
+.animateBtt {
+  position: relative;
+  animation-duration: 1.5s;
+  animation-name: mymove;
+  animation-timing-function: ease;
+}
+
+@keyframes mymove {
+  from {
+    top: 100px;
+    opacity: 0.2;
+  }
+  to {
+    top: 0px;
+    opacity: 2;
+  }
+}
+
+.graphic {
+  width: 100%;
+  max-width: 460px;
+}
+.animateGraphic {
+  position: relative;
+  animation: myGraphic 1s ease-in-out;
+}
+@keyframes myGraphic {
+  from {
+    opacity: 0;
+    max-width: 300px;
+  }
+  to {
+    opacity: 1;
+    max-width: 460px;
+  }
+}
+
+.rightInner {
+  margin: 35px 0px;
+}
+.rightSlide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px;
+  display: none;
+}
+.innerRightSlide {
+  border: 2px solid white;
+  padding: 15px;
+  border-radius: 50%;
+}
+.leftSlide {
+  display: flex;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px;
+}
+.innerLeftSlide {
+  border: 2px solid white;
+  padding: 15px;
+  border-radius: 50%;
+}

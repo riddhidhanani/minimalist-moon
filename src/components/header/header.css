@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.main {
+  background-color: transparent;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+}
+.main.active {
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+}
+.spacing {
+  padding: 10px 25px;
+}
+.container {
+  max-width: 90%;
+  margin: auto;
+}
+.innerNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logoImg {
+  max-width: 100px;
+}
+.anchNav {
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 16px;
+  text-decoration: none;
+  font-family: "Kanit", sans-serif;
+}
+
+
+.ulNav {
+  display: flex;
+  list-style: none;
+}
+.liNav {
+  padding: 0px 20px;
+}
+.rightLogo {
+  padding: 0px 20px;
+}
+.rightLogoNav {
+  text-decoration: none;
+}

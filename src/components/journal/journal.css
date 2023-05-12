@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.journalContainer {
+  max-width: 90%;
+  margin: auto;
+}
+.journalSpacing {
+  padding: 40px 20px;
+}
+.recentBlog {
+  font-weight: 400;
+  padding-left: 300px;
+  padding-top: 70px;
+  font-size: 20px;
+  line-height: 1.2;
+  font-family: "Kanit", sans-serif;
+  padding-bottom: 15px;
+}
+.recentBlogAnim{
+  animation: zAnim 1s ease-in-out; 
+  
+}
+@keyframes zAnim{
+  0%{
+    color: transparent;
+    transform-origin: 50% 0%;
+    transform: translate3d(0px, 18px, -15px) rotateX(-40deg) skew(10deg);
+    opacity: 0.5;
+  }
+  100%{
+    color: black;
+    transform-origin: 558px 12.6px;
+    transform: translate3d(0px, 0px, 0px);
+    opacity: 1;
+  }
+}
+.readUpdated {
+  font-size: 50px;
+  font-weight: 500;
+  width: 35%;
+  padding-left: 300px;
+  margin: 0;
+  line-height: 1;
+  font-family: "Kanit", sans-serif;
+}
+.readUpdatedAnim{
+  animation: zAnim 1s ease-in-out; 
+}
+.perspective {
+  margin-left: 420px;
+  border-left: 1px solid black;
+}
+.perspectiveStyle {
+  padding-top: 30px;
+  padding-bottom: 60px;
+  max-width: 330px;
+  font-size: 18px;
+  line-height: 1.4;
+  margin-left: 63px;
+  font-family: "Kanit", sans-serif;
+}
+.perspectiveStyleAnim{
+  animation: zAnim 1s ease-in-out; 
+
+}
+.perspectiveBottom {
+  display: flex;
+  width: 100%;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+.importanceMain {
+  width: 50%;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.rightdesigner {
+  width: 50%;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.blogHead {
+  color: #928f8f;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.3;
+  margin: 0;
+  font-family: "Kanit", sans-serif;
+  margin-bottom: 15px;
+}
+.ourBlog {
+  font-weight: 400;
+  font-size: 15px;
+  font-family: "Kanit", sans-serif;
+  color: black;
+  line-height: 1.3;
+}
+.ourBlog:hover {
+  color: gray;
+}
+.detailImportance {
+  margin-top: 186px;
+  height: 50%;
+  position: relative;
+
+  margin-left: -122px;
+  background-color: white;
+  padding: 40px;
+}
+.importanceImg {
+  max-width: 250px;
+  cursor: pointer;
+}
+.importanceImg:hover {
+  animation: importanceImgAnimation 1s;
+}
+@keyframes importanceImgAnimation {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.anchgoodImportance {
+  display: block;
+  font-weight: 500;
+  font-size: 25px;
+  font-family: "Kanit", sans-serif;
+  line-height: 1.2;
+  border-bottom: 1px solid black;
+  padding-bottom: 45px;
+}
+.goodImportance {
+  margin: 0;
+}
+.anchgoodImportance:hover {
+  color: gray;
+}
+.readMore {
+  font-family: "Kanit", sans-serif;
+  display: inline-block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.3;
+  color: black;
+  cursor: pointer;
+  margin: 10px 0px;
+}
+.readMore:hover {
+  color: black;
+}
+.readMoreSpan {
+  padding: 8px;
+}
+.designerDetail {
+  margin-top: 186px;
+  height: 50%;
+  position: relative;
+
+  margin-left: -122px;
+  background-color: white;
+  padding: 40px;
+}

@@ -1,0 +1,39 @@
+//for smooth scroll
+npm install react-use-smooth-scroll
+import { UseEffectScroll } from 'react-use-smooth-scroll'
+
+//for routing
+npm install react-router-dom
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
+import { Routes, Route, useNavigate } from "react-router-dom";
+
+
+//gsap
+react install gsap
+npm install scrolltrigger
+
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Slider from 'react-slick'
+
+//slick slider
+react install react-slick
+react install slick-slider
+npm install slick-carousel
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
+//feedback image move
+npm install react-mouse-image-move
+import { MouseContainer, ChasingElement } from "react-mouse-image-move";
+
+//for count
+npm install react-countup
+import CountUp from "react-countup";
+
+//for cursor in index.html in public
+<link href="./pointer.css" rel="stylesheet">
+<script src="./pointer.js"></script>
+        

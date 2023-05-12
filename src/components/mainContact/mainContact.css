@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.inTouchMain {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.contactContainer {
+  max-width: 91%;
+  margin: auto;
+}
+.contactSpacing {
+  padding: 100px 20px 18px 20px;
+}
+.inTouchLeft {
+  width: 50%;
+}
+.inTouchRight {
+  width: 50%;
+}
+.inTouchHead {
+  font-weight: 500;
+  margin: 0;
+  line-height: 1;
+  font-size: 80px;
+  font-family: "Kanit", sans-serif;
+  width: 80%;
+}
+.inquerydiv {
+}
+.inquiryStyle {
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  width: 55%;
+  float: right;
+  color: gray;
+}
+.inTouchBottom {
+  display: flex;
+  width: 100%;
+  margin: 50px 0px 0px 0px;
+}
+.afraidMain {
+  width: 40%;
+}
+.formMain {
+  width: 60%;
+}
+.afraidHead {
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 1.2;
+  padding-bottom: 30px;
+  font-family: "Kanit", sans-serif;
+  width: 50%;
+}
+.afraidUl {
+  padding: 0;
+}
+.afraidLi {
+  list-style: none;
+  margin-bottom: 8px;
+}
+.afraidAnch {
+  font-weight: 300;
+  font-size: 18px;
+  cursor: pointer;
+  line-height: 1.5;
+  font-family: "Kanit", sans-serif;
+  color: rgb(85, 84, 84);
+}
+.afraidAnch:hover {
+  color: black;
+}
+.spanafraid {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: "Kanit", sans-serif;
+  color: black;
+}
+.nameEmailMain {
+  display: flex;
+  width: 100%;
+  gap: 30px;
+}
+.nameDiv {
+  width: 50%;
+}
+.emailDiv {
+  width: 50%;
+}
+.nameInput {
+  border: none;
+  border-bottom: 1px solid gray;
+  width: 100%;
+  padding: 15px 0px;
+}
+.emailInput {
+  border: none;
+  border-bottom: 1px solid gray;
+  width: 100%;
+  padding: 15px 0px;
+}
+::placeholder {
+  color: rgb(86, 84, 84);
+  font-family: "Kanit", sans-serif;
+  font-size: 18px;
+}
+.phoneInput {
+  border: none;
+  border-bottom: 1px solid gray;
+  width: 100%;
+  padding: 15px 0px;
+}
+.subjectInput {
+  border: none;
+  border-bottom: 1px solid gray;
+  width: 100%;
+  padding: 15px 0px;
+}
+.phoneSubjectMain {
+  display: flex;
+  width: 100%;
+  gap: 30px;
+  margin: 40px 0px 0px 0px;
+}
+.messageDiv {
+  margin: 40px 0px 0px 0px;
+}
+.messageInput {
+  border: none;
+  width: 100%;
+  padding: 15px 0px;
+
+  border-bottom: 1px solid gray;
+}
+input:focus {
+  outline: none;
+}
+input {
+  font-size: 18px;
+}
+.errorStyling {
+  color: rgb(144, 6, 6);
+  font-family: "Kanit", sans-serif;
+}

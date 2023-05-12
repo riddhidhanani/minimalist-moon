@@ -1,0 +1,11 @@
+.loadingBackground{
+ height: 100vh;
+ background-color: black;  
+ display: flex;
+justify-content: center;
+ align-items: center; 
+}
+.loadingStyle{
+   
+    max-width: 200px;
+}

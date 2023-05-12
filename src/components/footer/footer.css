@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.mainFooter {
+  background-color: black;
+}
+.upperFooter {
+  display: grid;
+  grid-template-columns: 30% 10% auto;
+  padding: 0px 50px;
+  border-bottom: 1px solid #9b9a9a54;
+}
+.leftUpper {
+  padding: 50px 0px 0px 0px;
+}
+.leftUpper img {
+  max-width: 78px;
+  margin-bottom: 14px;
+}
+.ideaStyle {
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "Kanit", sans-serif;
+  width: 90%;
+  color: #9b9a9a;
+}
+.middleUpper {
+  border-left: 1px solid #9b9a9a54;
+  border-right: 1px solid #9b9a9a54;
+  padding: 0;
+  margin: 0;
+}
+.footerUl {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.anchFooter {
+  border-bottom: 1px solid #9b9a9a54;
+  display: block;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: white;
+  padding: 20px 0px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.footerLi:hover {
+  background-color: white;
+}
+.rightUpper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.anchFooter:hover {
+  color: black;
+}
+
+.waveTextAnimated {
+  margin-top: 0.6em;
+  font-size: 100px;
+  color: white;
+  font-family: "Kanit", sans-serif;
+  text-align: center;
+  cursor: pointer;
+}
+.waveTextAnimated span {
+  display: inline-block;
+  -webkit-animation: wave-text 3s ease-in-out infinite;
+  animation: wave-text 3s ease-in-out infinite;
+}
+.waveTextAnimated span:nth-of-type(1) {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+.waveTextAnimated span:nth-of-type(2) {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+.waveTextAnimated span:nth-of-type(3) {
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+}
+.waveTextAnimated span:nth-of-type(4) {
+  -webkit-animation-delay: 0.6s;
+  animation-delay: 0.6s;
+}
+.waveTextAnimated span:nth-of-type(5) {
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+}
+.waveTextAnimated span:nth-of-type(6) {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+.waveTextAnimated span:nth-of-type(7) {
+  -webkit-animation-delay: 1.2s;
+  animation-delay: 1.2s;
+}
+.waveTextAnimated span:nth-of-type(8) {
+  -webkit-animation-delay: 1.4s;
+  animation-delay: 1.4s;
+}
+.waveTextAnimated span:nth-of-type(9) {
+  -webkit-animation-delay: 1.6s;
+  animation-delay: 1.6s;
+}
+@-webkit-keyframes wave-text {
+  00% {
+    transform: translateY(0em);
+  }
+  60% {
+    transform: translateY(-0.6em);
+  }
+  100% {
+    transform: translateY(0em);
+  }
+}
+
+@keyframes wave-text {
+  00% {
+    transform: translateY(0em);
+  }
+  60% {
+    transform: translateY(-0.6em);
+  }
+  100% {
+    transform: translateY(0em);
+  }
+}
+.marginT {
+  margin-left: 15px;
+}
+.marginS {
+  margin-right: 15px;
+}
+.lowerFooterinner {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  align-items: center;
+}
+.reservedStyle {
+  color: white;
+  font-family: "Kanit", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0;
+  max-width: 245px;
+}
+.reservedAnch {
+  text-decoration: none;
+  cursor: pointer;
+  margin-left: 8px;
+}
+.ulNavFooter {
+  display: flex;
+  list-style: none;
+  margin: 0;
+}
+.anchNavFooter {
+  color: white;
+  font-size: 17px;
+  text-decoration: none;
+  font-family: "Kanit", sans-serif;
+}

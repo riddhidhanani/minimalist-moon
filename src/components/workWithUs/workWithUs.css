@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.workContainer {
+  max-width: 90%;
+  margin: auto;
+}
+.workSpacing {
+  padding: 20px 40px;
+}
+.workInner {
+  max-width: 60%;
+  margin: auto;
+}
+.buttonWork {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.3;
+  border: 1px solid gray;
+  display: inline-block;
+  padding: 5px 17px;
+  font-family: "Kanit", sans-serif;
+  margin: auto;
+  display: flex;
+  width: fit-content;
+  border-radius: 30px;
+  margin-bottom: 10px;
+}
+.hearMore {
+  font-weight: 400;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Kanit", sans-serif;
+  margin: 24px 0px 50px 0;
+  line-height: 1;
+}
