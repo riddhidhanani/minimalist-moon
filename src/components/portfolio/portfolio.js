@@ -676,7 +676,7 @@ const allImageDetail =[
                               ? "typeImage typeImageStyle"
                               : "typeImageStyle"
                           }
-                          style={{animationDelay:index*5000 + "ms" }}
+                          // style={{animationDelay:index*5000 + "ms" }}
                           onAnimationEnd={() => setClicked(false)}
                           src={imgSrc}
                           key={index}

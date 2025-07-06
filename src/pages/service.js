@@ -15,7 +15,7 @@ function Service() {
       <VerticalHeader />
       <PathService/>
       <MainService />
-      <Design />
+      {/* <Design /> */}
       {/* <DesignService /> */}
       <Brand />
       <WorkWithUs />

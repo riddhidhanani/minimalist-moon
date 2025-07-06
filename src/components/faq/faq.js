@@ -66,6 +66,14 @@ const Faq = () => {
   const [isFaq,setIsFaq] = useState(faqQuestion)
   const [selected, setSelected] = useState(null);
 
+/**
+ * The function toggles the selected state of an item based on its index.
+ * @param i - The parameter "i" is a variable that represents the index of the item that is being
+ * toggled.
+ * @returns The `toggle` function is returning `null` if the `selected` state is equal to the passed in
+ * index `i`, otherwise it sets the `selected` state to the passed in index `i`. However, the code
+ * snippet does not show the context of the `selected` state and how it is declared and initialized.
+ */
   const toggle = (i) => {
     if (selected == i) {
       return setSelected(null);

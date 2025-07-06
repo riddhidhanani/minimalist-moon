@@ -74,8 +74,9 @@
 }
 .typeImage {
   animation: slide-in 0.5s ease-in-out forwards;
-  transition: 1000ms ease-in-out;
-  position: relative;
+  transition: 600ms ease-in-out;
+  /* transition: 1000ms ease-in-out; */
+  /* position: relative; */
 }
 @keyframes slide-in {
   0% {
